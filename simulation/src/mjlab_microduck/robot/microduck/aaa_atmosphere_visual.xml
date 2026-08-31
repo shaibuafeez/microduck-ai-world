@@ -1,0 +1,29 @@
+<statistic extent="6.5" center="0 0 0.30"/>
+
+<visual>
+  <headlight diffuse="0 0 0" ambient="0.09 0.09 0.13" specular="0 0 0"/>
+  <rgba haze="0.90 0.82 0.68 1" fog="0.86 0.78 0.66 1"/>
+  <global azimuth="150" elevation="-8" offwidth="1920" offheight="1080"/>
+  <!-- SHADOW RESOLUTION.  The uniform triangular sawteeth on the fountain's shadow are
+       NOT the superimposed corner notches of concentric octagons, as the assembly report
+       concluded, and they are not confined to the fountain: hiding the fountain simply
+       moves the sawtooth onto whatever the next leading shadow edge is.  They are a
+       shadow-map staircase on long silhouette edges lying nearly parallel to the light,
+       and they scale exactly with texel size -- measured, four-way A/B at fixed camera:
+           4096 / clip 1.8   ->  5.71 mm texel,  ~50 mm teeth   (shipped before)
+           8192 / clip 1.8   ->  2.86 mm texel,  ~25 mm teeth
+           8192 / clip 1.30  ->  2.06 mm texel,  ~18 mm teeth   <- shipped
+          16384 / clip 1.30  ->  1.03 mm texel,  edge effectively clean
+       Cost is flat (26.6 vs 26.6 ms at 1600x900: this machine is readback-bound), so the
+       only real price is shadow-map memory, and 16384 would ask for ~800 MB.  clip 1.30 x
+       extent 6.5 = 8.45 m still covers the court's own half-diagonal of 7.9 m.
+       zfar 14 -> 17: the scenery AABB now spans 142 m and the worst-case eye-to-corner
+       distance from inside the court is 106 m, against a 91 m far plane -- visible slices
+       were being cut out of the west and north ranges.  17 x 6.5 = 110.5 m covers it.
+       znear 0.003 -> 0.012 (78 mm): still 1.9x clear of the 148 mm of ground at the bottom
+       of frame, and 2x clear of the 39 mm at which the duck's own jaw leaves the duck_eye
+       frustum.  Raising it cuts the scene's segmentation-flip rate by a third. -->
+  <quality shadowsize="8192" offsamples="8"/>
+  <map znear="0.012" zfar="17" shadowclip="1.30" shadowscale="1.0"
+       fogstart="0.9" fogend="3.2"/>
+</visual>

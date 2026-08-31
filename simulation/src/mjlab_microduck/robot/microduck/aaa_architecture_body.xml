@@ -1,0 +1,394 @@
+<!-- =============== architecture agent: built structures =============== -->
+<!-- Visible scenery: every geom contype=0 conaffinity=0. -->
+<geom name="architecture_col0m_plinth" type="box" pos="0.9083 -1.2950 0.0310" size="0.1680 0.1680 0.0310" quat="1.000000 0 0 0.000695" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col0m_socle" type="box" pos="0.9083 -1.2950 0.0835" size="0.1400 0.1400 0.0215" quat="1.000000 0 0 0.000695" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col0m_shaftlo" type="box" pos="0.9083 -1.2950 0.2550" size="0.1060 0.1060 0.1500" quat="1.000000 0 0 0.000695" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_col0m_shafthi" type="box" pos="0.9083 -1.2950 0.5350" size="0.0986 0.0986 0.1300" quat="1.000000 0 0 0.000695" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_col0m_neck" type="box" pos="0.9083 -1.2950 0.6740" size="0.1166 0.1166 0.0090" quat="1.000000 0 0 0.000695" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col0m_ech" type="box" pos="0.9083 -1.2950 0.6960" size="0.1442 0.1442 0.0130" quat="1.000000 0 0 0.000695" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col0m_abacus" type="box" pos="0.9083 -1.2950 0.7220" size="0.1760 0.1760 0.0170" quat="1.000000 0 0 0.000695" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col0p_plinth" type="box" pos="0.8811 1.3034 0.0310" size="0.1730 0.1730 0.0310" quat="0.999973 0 0 -0.007387" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col0p_socle" type="box" pos="0.8811 1.3034 0.0835" size="0.1442 0.1442 0.0215" quat="0.999973 0 0 -0.007387" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col0p_shaftlo" type="box" pos="0.8811 1.3034 0.2497" size="0.1092 0.1092 0.1447" quat="0.999973 0 0 -0.007387" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_col0p_shafthi" type="box" pos="0.8811 1.3034 0.5199" size="0.1015 0.1015 0.1255" quat="0.999973 0 0 -0.007387" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_col0p_neck" type="box" pos="0.8811 1.3034 0.6544" size="0.1201 0.1201 0.0090" quat="0.999973 0 0 -0.007387" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col0p_ech" type="box" pos="0.8811 1.3034 0.6764" size="0.1485 0.1485 0.0130" quat="0.999973 0 0 -0.007387" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col0p_abacus" type="box" pos="0.8811 1.3034 0.7024" size="0.1812 0.1812 0.0170" quat="0.999973 0 0 -0.007387" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1m_plinth" type="box" pos="2.0648 -1.2973 0.0310" size="0.1638 0.1638 0.0310" quat="0.999976 0 0 -0.006889" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1m_socle" type="box" pos="2.0648 -1.2973 0.0835" size="0.1365 0.1365 0.0215" quat="0.999976 0 0 -0.006889" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1m_shaftlo" type="box" pos="2.0648 -1.2973 0.2617" size="0.1033 0.1033 0.1567" quat="0.999976 0 0 -0.006889" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_col1m_shafthi" type="box" pos="2.0639 -1.2973 0.5543" size="0.0961 0.0961 0.1358" quat="0.999976 0 0 -0.006889" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_col1m_neck" type="box" pos="2.0639 -1.2973 0.6992" size="0.1137 0.1137 0.0090" quat="0.999976 0 0 -0.006889" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1m_ech" type="box" pos="2.0639 -1.2973 0.7212" size="0.1406 0.1406 0.0130" quat="0.999976 0 0 -0.006889" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1m_abacus" type="box" pos="2.0639 -1.2973 0.7472" size="0.1716 0.1716 0.0170" quat="0.999976 0 0 -0.006889" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1p_plinth" type="box" pos="2.0757 1.3120 0.0310" size="0.1697 0.1697 0.0310" quat="0.999969 0 0 0.007883" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1p_socle" type="box" pos="2.0757 1.3120 0.0835" size="0.1414 0.1414 0.0215" quat="0.999969 0 0 0.007883" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1p_shaftlo" type="box" pos="2.0757 1.3120 0.2527" size="0.1071 0.1071 0.1477" quat="0.999969 0 0 0.007883" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_col1p_shafthi" type="box" pos="2.0764 1.3120 0.5285" size="0.0996 0.0996 0.1280" quat="0.999969 0 0 0.007883" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_col1p_neck" type="box" pos="2.0764 1.3120 0.6656" size="0.1178 0.1178 0.0090" quat="0.999969 0 0 0.007883" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1p_abacus" type="box" pos="2.0764 1.3120 0.6916" size="0.1777 0.1777 0.0170" quat="0.999969 0 0 0.007883" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_col1p_cramp" type="box" pos="2.0764 1.3120 0.3965" size="0.1108 0.1108 0.0062" quat="0.999969 0 0 0.007883" material="architecture_iron" contype="0" conaffinity="0"/>
+<geom name="architecture_col2m_plinth" type="box" pos="3.2256 -1.2935 0.0310" size="0.1714 0.1714 0.0310" quat="0.999962 0 0 0.008732" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2m_socle" type="box" pos="3.2256 -1.2935 0.0835" size="0.1428 0.1428 0.0215" quat="0.999962 0 0 0.008732" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2m_shaftlo" type="box" pos="3.2256 -1.2935 0.2482" size="0.1081 0.1081 0.1432" quat="0.999962 0 0 0.008732" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2m_shafthi" type="box" pos="3.2275 -1.2935 0.5156" size="0.1006 0.1006 0.1241" quat="0.999962 0 0 0.008732" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2m_neck" type="box" pos="3.2275 -1.2935 0.6488" size="0.1189 0.1189 0.0090" quat="0.999962 0 0 0.008732" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2m_abacus" type="box" pos="3.2275 -1.2935 0.6748" size="0.1795 0.1795 0.0170" quat="0.999962 0 0 0.008732" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2m_cramp" type="box" pos="3.2275 -1.2935 0.3875" size="0.1119 0.1119 0.0062" quat="0.999962 0 0 0.008732" material="architecture_iron" contype="0" conaffinity="0"/>
+<geom name="architecture_col2p_plinth" type="box" pos="3.2327 1.2992 0.0310" size="0.1655 0.1655 0.0310" quat="0.999974 0 0 0.007196" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2p_socle" type="box" pos="3.2327 1.2992 0.0835" size="0.1379 0.1379 0.0215" quat="0.999974 0 0 0.007196" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2p_shaftlo" type="box" pos="3.2327 1.2992 0.2595" size="0.1044 0.1044 0.1545" quat="0.999974 0 0 0.007196" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2p_shafthi" type="box" pos="3.2345 1.2992 0.5479" size="0.0971 0.0971 0.1339" quat="0.999974 0 0 0.007196" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2p_neck" type="box" pos="3.2345 1.2992 0.6908" size="0.1149 0.1149 0.0090" quat="0.999974 0 0 0.007196" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2p_ech" type="box" pos="3.2345 1.2992 0.7128" size="0.1420 0.1420 0.0130" quat="0.999974 0 0 0.007196" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col2p_abacus" type="box" pos="3.2345 1.2992 0.7388" size="0.1733 0.1733 0.0170" quat="0.999974 0 0 0.007196" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3m_plinth" type="box" pos="4.3979 -1.2927 0.0310" size="0.1672 0.1672 0.0310" quat="0.999986 0 0 0.005346" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3m_socle" type="box" pos="4.3979 -1.2927 0.0835" size="0.1393 0.1393 0.0215" quat="0.999986 0 0 0.005346" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3m_shaftlo" type="box" pos="4.3979 -1.2927 0.2565" size="0.1055 0.1055 0.1515" quat="0.999986 0 0 0.005346" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3m_shafthi" type="box" pos="4.4096 -1.2927 0.5393" size="0.0981 0.0981 0.1313" quat="0.999145 0 0 0.041334" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3m_neck" type="box" pos="4.3976 -1.2927 0.6796" size="0.1160 0.1160 0.0090" quat="0.999986 0 0 0.005346" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3m_abacus" type="box" pos="4.4116 -1.2927 0.7056" size="0.1751 0.1751 0.0170" quat="0.998469 0 0 0.055318" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3p_plinth" type="box" pos="4.3810 1.2989 0.0310" size="0.1705 0.1705 0.0310" quat="0.999976 0 0 -0.006889" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3p_socle" type="box" pos="4.3810 1.2989 0.0835" size="0.1421 0.1421 0.0215" quat="0.999976 0 0 -0.006889" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3p_shaftlo" type="box" pos="4.3810 1.2989 0.2460" size="0.1076 0.1076 0.1410" quat="0.999976 0 0 -0.006889" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3p_shafthi" type="box" pos="4.3792 1.2989 0.5092" size="0.1001 0.1001 0.1222" quat="0.999976 0 0 -0.006889" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3p_neck" type="box" pos="4.3792 1.2989 0.6404" size="0.1183 0.1183 0.0090" quat="0.999976 0 0 -0.006889" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col3p_abacus" type="box" pos="4.3792 1.2989 0.6664" size="0.1786 0.1786 0.0170" quat="0.999976 0 0 -0.006889" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_col4m_plinth" type="box" pos="5.5308 -1.3016 0.0310" size="0.1688 0.1688 0.0310" quat="0.999901 0 0 0.014036" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4m_socle" type="box" pos="5.5308 -1.3016 0.0835" size="0.1407 0.1407 0.0215" quat="0.999901 0 0 0.014036" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4m_shaftlo" type="box" pos="5.5308 -1.3016 0.2542" size="0.1065 0.1065 0.1492" quat="0.999901 0 0 0.014036" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4m_shafthi" type="box" pos="5.5346 -1.3016 0.5328" size="0.0991 0.0991 0.1293" quat="0.999901 0 0 0.014036" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4m_neck" type="box" pos="5.5346 -1.3016 0.6712" size="0.1172 0.1172 0.0090" quat="0.999901 0 0 0.014036" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4m_abacus" type="box" pos="5.5346 -1.3016 0.6972" size="0.1768 0.1768 0.0170" quat="0.999901 0 0 0.014036" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4p_plinth" type="box" pos="5.5498 1.3067 0.0310" size="0.1663 0.1663 0.0310" quat="0.999951 0 0 -0.009911" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4p_socle" type="box" pos="5.5498 1.3067 0.0835" size="0.1386 0.1386 0.0215" quat="0.999951 0 0 -0.009911" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4p_shaftlo" type="box" pos="5.5498 1.3067 0.1980" size="0.1049 0.1049 0.0930" quat="0.999951 0 0 -0.009911" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4p_shafthi" type="box" pos="5.5520 1.3067 0.3142" size="0.0976 0.0976 0.0232" quat="0.999951 0 0 -0.009911" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4p_break1" type="box" pos="5.5220 1.3247 0.3555" size="0.0630 0.0714 0.0180" quat="0.998483 0 0 0.055061" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col4p_break2" type="box" pos="5.5880 1.2827 0.3475" size="0.0483 0.0525 0.0100" quat="0.993405 0 0 -0.114658" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5m_plinth" type="box" pos="6.6938 -1.3001 0.0310" size="0.1646 0.1646 0.0310" quat="0.999982 0 0 -0.006065" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5m_socle" type="box" pos="6.6938 -1.3001 0.0835" size="0.1372 0.1372 0.0215" quat="0.999982 0 0 -0.006065" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5m_shaftlo" type="box" pos="6.6938 -1.3001 0.2580" size="0.1039 0.1039 0.1530" quat="0.999982 0 0 -0.006065" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5m_shafthi" type="box" pos="6.6879 -1.3001 0.5436" size="0.0966 0.0966 0.1326" quat="0.999982 0 0 -0.006065" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5m_neck" type="box" pos="6.6879 -1.3001 0.6852" size="0.1143 0.1143 0.0090" quat="0.999982 0 0 -0.006065" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5m_abacus" type="box" pos="6.6879 -1.3001 0.7112" size="0.1724 0.1724 0.0170" quat="0.999982 0 0 -0.006065" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5m_cramp" type="box" pos="6.6879 -1.3001 0.4070" size="0.1075 0.1075 0.0062" quat="0.999982 0 0 -0.006065" material="architecture_iron" contype="0" conaffinity="0"/>
+<geom name="architecture_col5p_plinth" type="box" pos="6.7117 1.3108 0.0310" size="0.1714 0.1714 0.0310" quat="0.999907 0 0 -0.013609" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5p_socle" type="box" pos="6.7117 1.3108 0.0835" size="0.1428 0.1428 0.0215" quat="0.999907 0 0 -0.013609" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5p_shaftlo" type="box" pos="6.7117 1.3108 0.1710" size="0.1081 0.1081 0.0660" quat="0.999907 0 0 -0.013609" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5p_shafthi" type="box" pos="6.7104 1.3108 0.2535" size="0.1006 0.1006 0.0165" quat="0.999907 0 0 -0.013609" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5p_break1" type="box" pos="6.6804 1.3288 0.2880" size="0.0649 0.0735 0.0180" quat="0.998680 0 0 0.051368" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_col5p_break2" type="box" pos="6.7464 1.2868 0.2800" size="0.0497 0.0541 0.0100" quat="0.992974 0 0 -0.118331" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_step0" type="box" pos="-5.9167 -3.3325 0.0376" size="1.1793 0.1675 0.0376" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_step1" type="box" pos="-3.5500 -3.3325 0.0375" size="1.1793 0.1675 0.0375" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_step2" type="box" pos="-1.1833 -3.3325 0.0369" size="1.1793 0.1675 0.0369" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_step3" type="box" pos="1.1833 -3.3325 0.0367" size="1.1793 0.1675 0.0367" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_step4" type="box" pos="3.5500 -3.3325 0.0326" size="1.1793 0.1675 0.0366" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_step5" type="box" pos="5.9167 -3.3325 0.0363" size="1.1793 0.1675 0.0363" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_plinth0" type="box" pos="-5.6800 -3.3600 0.1024" size="1.4150 0.1400 0.0274" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_plinth1" type="box" pos="-2.8400 -3.3600 0.1045" size="1.4150 0.1400 0.0295" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_plinth2" type="box" pos="0.0000 -3.3600 0.1014" size="1.4150 0.1400 0.0264" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_plinth3" type="box" pos="2.8400 -3.3600 0.1034" size="1.4150 0.1400 0.0284" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_plinth4" type="box" pos="5.6800 -3.3600 0.1024" size="1.4150 0.1400 0.0274" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_face0" type="box" pos="-6.2125 -3.3800 0.2636" size="0.8875 0.1200 0.1336" material="architecture_rose_plane" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_face1" type="box" pos="-4.4375 -3.3800 0.2638" size="0.8875 0.1200 0.1338" material="architecture_rose_plane" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_face2" type="box" pos="-2.6625 -3.3800 0.2641" size="0.8875 0.1200 0.1341" material="architecture_rose_plane" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_face3" type="box" pos="-0.8875 -3.3800 0.2653" size="0.8875 0.1200 0.1353" material="architecture_rose_plane" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_face4" type="box" pos="0.8875 -3.3800 0.2643" size="0.8875 0.1200 0.1343" material="architecture_rose_plane" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_face5" type="box" pos="2.6625 -3.3800 0.2664" size="0.8875 0.1200 0.1364" material="architecture_rose_plane" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_face6" type="box" pos="4.4375 -3.3800 0.2665" size="0.8875 0.1200 0.1365" material="architecture_rose_plane" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_face7" type="box" pos="6.2125 -3.3800 0.2646" size="0.8875 0.1200 0.1346" material="architecture_rose_plane" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_panel0" type="box" pos="-5.7000 -3.3980 0.2650" size="0.6000 0.1020 0.1050" material="architecture_rose_dark" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_panel1" type="box" pos="-1.7500 -3.3980 0.2650" size="0.6000 0.1020 0.1050" material="architecture_rose_dark" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_panel2" type="box" pos="6.1500 -3.3980 0.2650" size="0.6000 0.1020 0.1050" material="architecture_rose_dark" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pil0" type="box" pos="-6.9400 -3.2450 0.2070" size="0.1150 0.0450 0.2070" material="architecture_rose_b" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pilcap0" type="box" pos="-6.9400 -3.2410 0.4300" size="0.1400 0.0610 0.0160" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pil1" type="box" pos="-4.5500 -3.2450 0.2070" size="0.1150 0.0450 0.2070" material="architecture_rose_b" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pilcap1" type="box" pos="-4.5500 -3.2410 0.4300" size="0.1400 0.0610 0.0160" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pil2" type="box" pos="-2.9000 -3.2450 0.2070" size="0.1150 0.0450 0.2070" material="architecture_rose_b" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pilcap2" type="box" pos="-2.9000 -3.2410 0.4300" size="0.1400 0.0610 0.0160" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pil3" type="box" pos="6.3000 -3.2450 0.2070" size="0.1150 0.0450 0.2070" material="architecture_rose_b" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pilcap3" type="box" pos="6.3000 -3.2410 0.4300" size="0.1400 0.0610 0.0160" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pil4" type="box" pos="6.9400 -3.2450 0.2070" size="0.1150 0.0450 0.2070" material="architecture_rose_b" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_pilcap4" type="box" pos="6.9400 -3.2410 0.4300" size="0.1400 0.0610 0.0160" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_string0" type="box" pos="-5.9167 -3.3675 0.4160" size="1.1793 0.1325 0.0160" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_string1" type="box" pos="-3.5500 -3.3675 0.4160" size="1.1793 0.1325 0.0160" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_string2" type="box" pos="-1.1833 -3.3675 0.4160" size="1.1793 0.1325 0.0160" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_string3" type="box" pos="1.1833 -3.3675 0.4160" size="1.1793 0.1325 0.0160" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_string4" type="box" pos="3.5500 -3.3675 0.4160" size="1.1793 0.1325 0.0160" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_string5" type="box" pos="5.9167 -3.3675 0.4160" size="1.1793 0.1325 0.0160" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_frieze0" type="box" pos="-5.6800 -3.3990 0.4500" size="1.4200 0.1010 0.0180" material="architecture_rose_band" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_frieze1" type="box" pos="-2.8400 -3.3990 0.4500" size="1.4200 0.1010 0.0180" material="architecture_rose_band" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_frieze2" type="box" pos="0.0000 -3.3990 0.4500" size="1.4200 0.1010 0.0180" material="architecture_rose_band" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_frieze3" type="box" pos="2.8400 -3.3990 0.4500" size="1.4200 0.1010 0.0180" material="architecture_rose_band" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_frieze4" type="box" pos="5.6800 -3.3990 0.4500" size="1.4200 0.1010 0.0180" material="architecture_rose_band" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_ring0" type="box" pos="-3.8500 -3.2550 0.2335" size="0.0170 0.0090 0.0185" material="architecture_iron" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_ring1" type="box" pos="0.9500 -3.2550 0.2335" size="0.0170 0.0090 0.0185" material="architecture_iron" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_ring2" type="box" pos="4.4000 -3.2550 0.2335" size="0.0170 0.0090 0.0185" material="architecture_iron" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_cope0" type="box" pos="-6.3111 -3.3600 0.4877" size="0.7839 0.1450 0.0197" quat="1.000000 0 0 0.000312" material="architecture_stone_lg_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_cope1" type="box" pos="-4.7333 -3.3600 0.4894" size="0.7839 0.1450 0.0214" quat="0.999990 0 0 -0.004481" material="architecture_stone_lg" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_cope3" type="box" pos="-1.5778 -3.3600 0.4856" size="0.7839 0.1450 0.0176" quat="0.999985 0 0 -0.005405" material="architecture_stone_lg" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_cope4" type="box" pos="0.0000 -3.3570 0.4935" size="0.7829 0.1450 0.0195" quat="0.999622 0 0 -0.027497" material="architecture_stone_lg" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_cope5" type="box" pos="1.5778 -3.3600 0.4875" size="0.7839 0.1450 0.0195" quat="0.999969 0 0 -0.007816" material="architecture_stone_lg" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_cope7" type="box" pos="4.7333 -3.3600 0.4798" size="0.7839 0.1450 0.0118" quat="0.999993 0 0 0.003694" material="architecture_stone_lg" contype="0" conaffinity="0"/>
+<geom name="architecture_sw_cope8" type="box" pos="6.3111 -3.3600 0.4872" size="0.7839 0.1450 0.0192" quat="0.999978 0 0 -0.006563" material="architecture_stone_lg_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_step0" type="box" pos="-5.9167 3.3325 0.0367" size="1.1793 0.1675 0.0367" material="architecture_stone_xl_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_step1" type="box" pos="-3.5500 3.3325 0.0384" size="1.1793 0.1675 0.0384" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_step2" type="box" pos="-1.1833 3.3325 0.0341" size="1.1793 0.1675 0.0381" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_step3" type="box" pos="1.1833 3.3325 0.0344" size="1.1793 0.1675 0.0344" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_step4" type="box" pos="3.5500 3.3325 0.0365" size="1.1793 0.1675 0.0365" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_step5" type="box" pos="5.9167 3.3325 0.0384" size="1.1793 0.1675 0.0384" material="architecture_stone_xl_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_plinth0" type="box" pos="-5.6800 3.3650 0.0992" size="1.4160 0.1350 0.0272" material="architecture_stone_xl_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_plinth1" type="box" pos="-2.8400 3.3650 0.0984" size="1.4160 0.1350 0.0264" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_plinth2" type="box" pos="0.0000 3.3650 0.0977" size="1.4160 0.1350 0.0257" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_plinth3" type="box" pos="2.8400 3.3650 0.0970" size="1.4160 0.1350 0.0250" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_plinth4" type="box" pos="5.6800 3.3650 0.0974" size="1.4160 0.1350 0.0254" material="architecture_stone_xl_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_back0" type="box" pos="-5.3250 3.4475 0.2661" size="1.7750 0.0525 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_back1" type="box" pos="-1.7750 3.4475 0.2661" size="1.7750 0.0525 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_back2" type="box" pos="1.7750 3.4475 0.2661" size="1.7750 0.0525 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_back3" type="box" pos="5.3250 3.4475 0.2661" size="1.7750 0.0525 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_dado0" type="box" pos="-5.9167 3.3250 0.0776" size="1.1803 0.0700 0.0276" material="architecture_petrol_dark" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_dado1" type="box" pos="-3.5500 3.3250 0.0794" size="1.1803 0.0700 0.0294" material="architecture_petrol_dark" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_dado2" type="box" pos="-1.1833 3.3250 0.0810" size="1.1803 0.0700 0.0310" material="architecture_petrol_dark" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_dado3" type="box" pos="1.1833 3.3250 0.0778" size="1.1803 0.0700 0.0278" material="architecture_petrol_dark" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_dado4" type="box" pos="3.5500 3.3250 0.0829" size="1.1803 0.0700 0.0329" material="architecture_petrol_dark" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_dado5" type="box" pos="5.9167 3.3250 0.0841" size="1.1803 0.0700 0.0341" material="architecture_petrol_dark" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA0" type="box" pos="-7.0100 3.3625 0.2661" size="0.0900 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB0" type="box" pos="-7.0100 3.2950 0.2640" size="0.0640 0.0350 0.2190" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA1" type="box" pos="-6.2016 3.3625 0.2661" size="0.0877 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB1" type="box" pos="-6.2016 3.2950 0.2661" size="0.0617 0.0350 0.2211" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA2" type="box" pos="-5.3843 3.3625 0.2661" size="0.0990 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB2" type="box" pos="-5.3843 3.2950 0.2634" size="0.0730 0.0350 0.2184" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pilA2" type="box" pos="-5.3843 3.2300 0.2496" size="0.0690 0.0300 0.2496" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pilC2" type="box" pos="-5.3843 3.2250 0.5132" size="0.0870 0.0430 0.0140" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA3" type="box" pos="-4.5588 3.3625 0.2661" size="0.0958 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB3" type="box" pos="-4.5588 3.2950 0.2645" size="0.0698 0.0350 0.2195" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA4" type="box" pos="-3.7440 3.3625 0.2661" size="0.0884 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB4" type="box" pos="-3.7440 3.2950 0.2647" size="0.0624 0.0350 0.2197" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA5" type="box" pos="-2.9347 3.3625 0.2661" size="0.0902 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB5" type="box" pos="-2.9347 3.2950 0.2618" size="0.0642 0.0350 0.2168" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA6" type="box" pos="-2.1201 3.3625 0.2661" size="0.0938 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB6" type="box" pos="-2.1201 3.2950 0.2646" size="0.0678 0.0350 0.2196" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pilA6" type="box" pos="-2.1201 3.2300 0.2496" size="0.0638 0.0300 0.2496" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pilC6" type="box" pos="-2.1201 3.2250 0.5132" size="0.0818 0.0430 0.0140" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA7" type="box" pos="-1.2910 3.3625 0.2661" size="0.1046 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB7" type="box" pos="-1.2910 3.2950 0.2657" size="0.0786 0.0350 0.2207" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA8" type="box" pos="-0.4500 3.3625 0.2661" size="0.1057 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB8" type="box" pos="-0.4500 3.2950 0.2644" size="0.0797 0.0350 0.2194" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA9" type="box" pos="0.3838 3.3625 0.2661" size="0.0974 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB9" type="box" pos="0.3838 3.2950 0.2639" size="0.0714 0.0350 0.2189" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA10" type="box" pos="1.2167 3.3625 0.2661" size="0.1049 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB10" type="box" pos="1.2167 3.2950 0.2638" size="0.0789 0.0350 0.2188" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pilA10" type="box" pos="1.2167 3.2300 0.2496" size="0.0749 0.0300 0.2496" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pilC10" type="box" pos="1.2167 3.2250 0.5132" size="0.0929 0.0430 0.0140" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA11" type="box" pos="2.0586 3.3625 0.2661" size="0.1064 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB11" type="box" pos="2.0586 3.2950 0.2614" size="0.0804 0.0350 0.2164" material="architecture_plaster_col" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA12" type="box" pos="2.8889 3.3625 0.2661" size="0.0933 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB12" type="box" pos="2.8889 3.2950 0.2641" size="0.0673 0.0350 0.2191" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA13" type="box" pos="3.7083 3.3625 0.2661" size="0.0954 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB13" type="box" pos="3.7083 3.2950 0.2627" size="0.0694 0.0350 0.2177" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA14" type="box" pos="4.5284 3.3625 0.2661" size="0.0940 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB14" type="box" pos="4.5284 3.2950 0.2626" size="0.0680 0.0350 0.2176" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pilA14" type="box" pos="4.5284 3.2300 0.2496" size="0.0640 0.0300 0.2496" material="architecture_plaster_col_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pilC14" type="box" pos="4.5284 3.2250 0.5132" size="0.0820 0.0430 0.0140" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA15" type="box" pos="5.3590 3.3625 0.2661" size="0.1059 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB15" type="box" pos="5.3590 3.2950 0.2616" size="0.0799 0.0350 0.2166" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA16" type="box" pos="6.1923 3.3625 0.2661" size="0.0967 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB16" type="box" pos="6.1923 3.2950 0.2607" size="0.0707 0.0350 0.2157" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierA17" type="box" pos="7.0098 3.3625 0.2661" size="0.0902 0.0325 0.2211" material="architecture_petrol_shade" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_pierB17" type="box" pos="7.0098 3.2950 0.2637" size="0.0642 0.0350 0.2187" material="architecture_plaster_col_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_string0" type="box" pos="-5.9167 3.3725 0.5047" size="1.1793 0.1275 0.0175" material="architecture_stone_xl_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_string1" type="box" pos="-3.5500 3.3725 0.5047" size="1.1793 0.1275 0.0175" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_string2" type="box" pos="-1.1833 3.3725 0.5047" size="1.1793 0.1275 0.0175" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_string3" type="box" pos="1.1833 3.3725 0.5047" size="1.1793 0.1275 0.0175" material="architecture_stone_xl" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_string4" type="box" pos="3.5500 3.3725 0.5047" size="1.1793 0.1275 0.0175" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_string5" type="box" pos="5.9167 3.3725 0.5047" size="1.1793 0.1275 0.0175" material="architecture_stone_xl_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_frieze0" type="box" pos="-5.6800 3.3990 0.5361" size="1.4200 0.1010 0.0139" material="architecture_petrol_band" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_frieze1" type="box" pos="-2.8400 3.3990 0.5361" size="1.4200 0.1010 0.0139" material="architecture_petrol_band" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_frieze2" type="box" pos="0.0000 3.3990 0.5361" size="1.4200 0.1010 0.0139" material="architecture_petrol_band" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_frieze3" type="box" pos="2.8400 3.3990 0.5361" size="1.4200 0.1010 0.0139" material="architecture_petrol_band" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_frieze4" type="box" pos="5.6800 3.3990 0.5361" size="1.4200 0.1010 0.0139" material="architecture_petrol_band" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_corbel2" type="box" pos="-5.3843 3.2500 0.4672" size="0.0670 0.0180 0.0200" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_corbel6" type="box" pos="-2.1201 3.2500 0.4672" size="0.0618 0.0180 0.0200" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_corbel10" type="box" pos="1.2167 3.2500 0.4672" size="0.0729 0.0180 0.0200" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_corbel14" type="box" pos="4.5284 3.2500 0.4672" size="0.0620 0.0180 0.0200" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_sill1" type="box" pos="-5.7986 3.3415 0.0570" size="0.2703 0.0535 0.0120" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_sill4" type="box" pos="-3.3403 3.3415 0.0570" size="0.2703 0.0535 0.0120" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_sill7" type="box" pos="-0.8711 3.3415 0.0570" size="0.2703 0.0535 0.0120" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_sill10" type="box" pos="1.6369 3.3415 0.0570" size="0.2703 0.0535 0.0120" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_sill13" type="box" pos="4.1190 3.3415 0.0570" size="0.2703 0.0535 0.0120" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_sill16" type="box" pos="6.6044 3.3415 0.0570" size="0.2703 0.0535 0.0120" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_ring5" type="box" pos="-2.9347 3.2570 0.2325" size="0.0170 0.0110 0.0175" material="architecture_iron" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_ring14" type="box" pos="4.5284 3.2570 0.2325" size="0.0170 0.0110 0.0175" material="architecture_iron" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_ring4" type="box" pos="-3.7440 3.2570 0.2325" size="0.0170 0.0110 0.0175" material="architecture_iron" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_cope0" type="box" pos="-6.3111 3.3650 0.5691" size="0.7839 0.1400 0.0191" quat="0.999993 0 0 -0.003802" material="architecture_stone_lg_far" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_cope1" type="box" pos="-4.7333 3.3650 0.5698" size="0.7839 0.1400 0.0198" quat="0.999995 0 0 -0.003225" material="architecture_stone_lg_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_cope3" type="box" pos="-1.5778 3.3650 0.5672" size="0.7839 0.1400 0.0172" quat="0.999989 0 0 -0.004649" material="architecture_stone_lg" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_cope4" type="box" pos="0.0000 3.3570 0.5708" size="0.7829 0.1350 0.0148" quat="0.999622 0 0 0.027497" material="architecture_stone_lg_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_cope5" type="box" pos="1.5778 3.3650 0.5650" size="0.7839 0.1400 0.0150" quat="0.999985 0 0 0.005429" material="architecture_stone_lg" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_cope7" type="box" pos="4.7333 3.3650 0.5698" size="0.7839 0.1400 0.0198" quat="0.999999 0 0 -0.001616" material="architecture_stone_lg_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nw_cope8" type="box" pos="6.3111 3.3650 0.5611" size="0.7839 0.1400 0.0111" quat="0.999969 0 0 0.007864" material="architecture_stone_lg_far" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtA0" type="box" pos="-4.5500 -3.3760 0.0275" size="0.1720 0.1610 0.0275" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtA1" type="box" pos="-4.5500 -3.3650 0.1874" size="0.1500 0.1500 0.1324" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtA2" type="box" pos="-4.5500 -3.3600 0.4449" size="0.1400 0.1450 0.1251" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtAcor" type="box" pos="-4.5500 -3.3650 0.5925" size="0.1780 0.1800 0.0225" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtAfin" type="box" pos="-4.5320 -3.3650 0.6450" size="0.0690 0.0750 0.0300" quat="0.993956 0 0 0.109778" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtB0" type="box" pos="2.3500 -3.3760 0.0275" size="0.1720 0.1610 0.0275" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtB1" type="box" pos="2.3500 -3.3650 0.1991" size="0.1500 0.1500 0.1441" material="architecture_ashlar_md_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtB2" type="box" pos="2.3500 -3.3600 0.4791" size="0.1400 0.1450 0.1359" material="architecture_ashlar_md_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtBcor" type="box" pos="2.3500 -3.3650 0.6375" size="0.1780 0.1800 0.0225" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_sbtBfin" type="box" pos="2.3680 -3.3650 0.6900" size="0.0690 0.0750 0.0300" quat="0.993956 0 0 0.109778" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtA0" type="box" pos="-4.1000 3.3760 0.0275" size="0.1720 0.1610 0.0275" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtA1" type="box" pos="-4.1000 3.3650 0.2095" size="0.1500 0.1500 0.1545" material="architecture_ashlar_md_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtA2" type="box" pos="-4.1000 3.3600 0.5095" size="0.1400 0.1450 0.1455" material="architecture_ashlar_md_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtAcor" type="box" pos="-4.1000 3.3650 0.6775" size="0.1780 0.1800 0.0225" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtAfin" type="box" pos="-4.0820 3.3650 0.7300" size="0.0690 0.0750 0.0300" quat="0.993956 0 0 0.109778" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtB0" type="box" pos="3.0500 3.3760 0.0275" size="0.1720 0.1610 0.0275" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtB1" type="box" pos="3.0500 3.3650 0.2212" size="0.1500 0.1500 0.1662" material="architecture_ashlar_md_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtB2" type="box" pos="3.0500 3.3600 0.5437" size="0.1400 0.1450 0.1563" material="architecture_ashlar_md_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtBcor" type="box" pos="3.0500 3.3650 0.7225" size="0.1780 0.1800 0.0225" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_nbtBfin" type="box" pos="3.0680 3.3650 0.7750" size="0.0690 0.0750 0.0300" quat="0.993956 0 0 0.109778" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrS0" type="box" pos="-7.0200 -3.3360 0.0275" size="0.2220 0.1610 0.0275" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrS1" type="box" pos="-7.0200 -3.3250 0.1991" size="0.2000 0.1500 0.1441" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrS2" type="box" pos="-7.0200 -3.3200 0.4791" size="0.1900 0.1450 0.1359" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrScor" type="box" pos="-7.0200 -3.3250 0.6375" size="0.2280 0.1800 0.0225" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrSfin" type="box" pos="-7.0020 -3.3250 0.6900" size="0.0920 0.0750 0.0300" quat="0.993956 0 0 0.109778" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrN0" type="box" pos="-7.0200 3.3360 0.0275" size="0.2220 0.1610 0.0275" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrN1" type="box" pos="-7.0200 3.3250 0.2303" size="0.2000 0.1500 0.1753" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrN2" type="box" pos="-7.0200 3.3200 0.5703" size="0.1900 0.1450 0.1647" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrNcor" type="box" pos="-7.0200 3.3250 0.7575" size="0.2280 0.1800 0.0225" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_cnrNfin" type="box" pos="-7.0020 3.3250 0.8100" size="0.0920 0.0750 0.0300" quat="0.993956 0 0 0.109778" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_plinth" type="box" pos="7.1525 1.9240 0.0275" size="0.1325 1.3860 0.0275" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_mass" type="box" pos="7.1810 1.9300 0.3225" size="0.0810 1.3800 0.2675" material="architecture_plaster_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_ante" type="box" pos="7.1525 0.6275 0.3635" size="0.1125 0.0775 0.3085" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_anteC" type="box" pos="7.1510 0.6275 0.6890" size="0.1390 0.1035 0.0170" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_antP" type="box" pos="7.1515 0.6275 0.0310" size="0.1435 0.0995 0.0310" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_string" type="box" pos="7.1820 1.9200 0.3170" size="0.1000 1.3900 0.0170" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_attic" type="box" pos="7.1850 1.9450 0.6360" size="0.0675 1.3650 0.0460" material="architecture_plaster_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_corn" type="box" pos="7.1835 1.9160 0.7010" size="0.1085 1.3940 0.0190" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_cbl0" type="box" pos="7.1700 0.5240 0.5130" size="0.0700 0.0260 0.0170" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_cbl1" type="box" pos="7.1700 0.5340 0.4380" size="0.0700 0.0160 0.0170" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_rev0" type="box" pos="7.2067 0.5700 0.2197" size="0.0517 0.0200 0.1647" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_rev1" type="box" pos="7.2317 0.5875 0.1639" size="0.0267 0.0375 0.1089" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_dais0" type="box" pos="6.8200 1.0850 0.0180" size="0.2000 0.4650 0.0180" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtN_dais1" type="box" pos="6.8850 1.0250 0.0340" size="0.1350 0.3250 0.0340" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_plinth" type="box" pos="7.1525 -1.9360 0.0275" size="0.1325 1.3860 0.0275" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_mass" type="box" pos="7.1810 -1.9300 0.3725" size="0.0810 1.3800 0.3175" material="architecture_plaster_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_ante" type="box" pos="7.1525 -0.6275 0.4135" size="0.1125 0.0775 0.3585" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_anteC" type="box" pos="7.1510 -0.6275 0.7890" size="0.1390 0.1035 0.0170" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_antP" type="box" pos="7.1515 -0.6275 0.0310" size="0.1435 0.0995 0.0310" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_string" type="box" pos="7.1820 -1.9400 0.3170" size="0.1000 1.3900 0.0170" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_attic" type="box" pos="7.1850 -1.9150 0.7360" size="0.0675 1.3650 0.0460" material="architecture_plaster_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_corn" type="box" pos="7.1835 -1.9440 0.8010" size="0.1085 1.3940 0.0190" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_cbl0" type="box" pos="7.1700 -0.5240 0.5930" size="0.0700 0.0260 0.0170" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_cbl1" type="box" pos="7.1700 -0.5340 0.5180" size="0.0700 0.0160 0.0170" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_rev0" type="box" pos="7.2067 -0.5700 0.2507" size="0.0517 0.0200 0.1957" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_rev1" type="box" pos="7.2317 -0.5875 0.1859" size="0.0267 0.0375 0.1309" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_dais0" type="box" pos="6.8200 -1.0850 0.0180" size="0.2000 0.4650 0.0180" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gtS_dais1" type="box" pos="6.8850 -1.0250 0.0340" size="0.1350 0.3250 0.0340" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gt_boll0" type="cylinder" pos="6.5200 -0.7350 0.0850" size="0.0420 0.0420 0.0850" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_gt_boll1" type="cylinder" pos="6.5200 0.7350 0.0850" size="0.0420 0.0420 0.0850" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru0_plinth" type="box" pos="-7.1450 -2.6200 0.0210" size="0.1550 0.4900 0.0210" material="architecture_stone_rim_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru0_core" type="box" pos="-7.1450 -2.6200 0.0908" size="0.1250 0.4600 0.0488" material="architecture_plaster_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru0_brk0" type="box" pos="-7.1387 -2.9267 0.2111" size="0.1121 0.1453 0.0756" quat="0.999500 0 0 -0.031634" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru0_brk1" type="box" pos="-7.1522 -2.6200 0.1519" size="0.1057 0.1453 0.0164" quat="0.999857 0 0 0.016888" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru0_brk2" type="box" pos="-7.1433 -2.3133 0.1485" size="0.1080 0.1453 0.0130" quat="0.998818 0 0 -0.048610" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru0_spall" type="box" pos="-6.9850 -2.7749 0.0900" size="0.0380 0.0700 0.0480" quat="0.999376 0 0 -0.035322" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru1_plinth" type="box" pos="-7.1450 -1.2800 0.0210" size="0.1550 0.3300 0.0210" material="architecture_stone_rim_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru1_core" type="box" pos="-7.1450 -1.2800 0.0567" size="0.1250 0.3000 0.0146" material="architecture_plaster_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru1_brk0" type="box" pos="-7.1443 -1.4800 0.1100" size="0.1188 0.0920 0.0427" quat="0.999872 0 0 -0.015988" material="architecture_ashlar_md2_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru1_brk1" type="box" pos="-7.1543 -1.2800 0.0977" size="0.0987 0.0920 0.0304" quat="0.998932 0 0 -0.046198" material="architecture_ashlar_md2_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru1_brk2" type="box" pos="-7.1384 -1.0800 0.0803" size="0.0994 0.0920 0.0130" quat="0.999877 0 0 0.015683" material="architecture_ashlar_md2_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru1_spall" type="box" pos="-6.9850 -1.3362 0.0460" size="0.0380 0.0700 0.0480" quat="0.988950 0 0 0.148249" material="architecture_ashlar_md2_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru2_plinth" type="box" pos="-7.1450 0.1800 0.0210" size="0.1550 0.5550 0.0210" material="architecture_stone_rim_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru2_core" type="box" pos="-7.1450 0.1800 0.1279" size="0.1250 0.5250 0.0859" material="architecture_plaster_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru2_brk0" type="box" pos="-7.1532 -0.1700 0.2925" size="0.1108 0.1670 0.0826" quat="0.999111 0 0 0.042154" material="architecture_ashlar_md3_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru2_brk1" type="box" pos="-7.1556 0.1800 0.2595" size="0.1180 0.1670 0.0496" quat="0.999976 0 0 -0.006978" material="architecture_ashlar_md3_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru2_brk2" type="box" pos="-7.1448 0.5300 0.2229" size="0.0998 0.1670 0.0130" quat="0.999740 0 0 -0.022811" material="architecture_ashlar_md3_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru2_spall" type="box" pos="-6.9850 0.0908 0.1380" size="0.0380 0.0700 0.0480" quat="0.999303 0 0 0.037332" material="architecture_ashlar_md3_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru3_plinth" type="box" pos="-7.1450 1.6200 0.0210" size="0.1550 0.3900 0.0210" material="architecture_stone_rim_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru3_core" type="box" pos="-7.1450 1.6200 0.0706" size="0.1250 0.3600 0.0286" material="architecture_plaster_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru3_brk0" type="box" pos="-7.1449 1.3800 0.1279" size="0.1160 0.1120 0.0327" quat="0.999395 0 0 0.034791" material="architecture_ashlar_md2_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru3_brk1" type="box" pos="-7.1365 1.6200 0.1258" size="0.1172 0.1120 0.0306" quat="0.999609 0 0 0.027948" material="architecture_ashlar_md2_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru3_brk2" type="box" pos="-7.1497 1.8600 0.1082" size="0.1094 0.1120 0.0130" quat="0.999523 0 0 0.030868" material="architecture_ashlar_md2_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru3_spall" type="box" pos="-6.9850 1.6590 0.0640" size="0.0380 0.0700 0.0480" quat="0.998997 0 0 0.044772" material="architecture_ashlar_md2_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru4_plinth" type="box" pos="-7.1450 2.7800 0.0210" size="0.1550 0.4600 0.0210" material="architecture_stone_rim_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru4_core" type="box" pos="-7.1450 2.7800 0.1094" size="0.1250 0.4300 0.0673" material="architecture_plaster_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru4_brk0" type="box" pos="-7.1480 2.4933 0.2409" size="0.0982 0.1353 0.0682" quat="0.999946 0 0 0.010348" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru4_brk1" type="box" pos="-7.1539 2.7800 0.2180" size="0.1146 0.1353 0.0453" quat="0.999885 0 0 0.015160" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru4_brk2" type="box" pos="-7.1457 3.0667 0.1857" size="0.1029 0.1353 0.0130" quat="0.999227 0 0 -0.039306" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru4_spall" type="box" pos="-6.9850 2.7114 0.1140" size="0.0380 0.0700 0.0480" quat="0.993667 0 0 -0.112366" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru_drum0" type="cylinder" pos="-6.3000 -2.0500 0.0980" size="0.0980 0.1050 0.0980" zaxis="-0.0400 1.0000 0.0000" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru_drum1" type="cylinder" pos="-6.2740 -1.8150 0.0980" size="0.0980 0.1050 0.0980" zaxis="0.0300 1.0000 0.0000" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru_drum2" type="cylinder" pos="-6.2480 -1.5800 0.0980" size="0.0980 0.1050 0.0980" zaxis="0.1000 1.0000 0.0000" material="architecture_ashlar_md_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru_drumcap" type="box" pos="-6.2400 -1.3700 0.0980" size="0.0260 0.1350 0.1350" quat="0.998988 0 0 0.044985" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru_drumbase" type="box" pos="-6.3600 -2.4400 0.0750" size="0.1500 0.1500 0.0750" quat="0.999550 0 0 0.029996" material="architecture_stone_far" contype="0" conaffinity="0"/>
+<geom name="architecture_ru_step0" type="box" pos="-6.8050 0.1500 0.0220" size="0.1850 1.2000 0.0220" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_ru_step1" type="box" pos="-6.8850 0.1500 0.0440" size="0.1050 1.0000 0.0440" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_ru_step2" type="box" pos="-6.9450 0.1500 0.0660" size="0.0450 0.8000 0.0660" material="architecture_stone_xl_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_drum0" type="box" pos="-2.1051 0.0000 0.0400" size="0.3170 0.0340 0.0400" quat="0.707107 0 0 0.707107" material="architecture_fn_drum" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_lin0" type="box" pos="-2.1691 0.0000 0.0470" size="0.2630 0.0220 0.0470" quat="0.707107 0 0 0.707107" material="architecture_fn_lining" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_cope00" type="box" pos="-2.0771 0.1722 0.0950" size="0.1408 0.0400 0.0170" quat="0.707107 0 0 0.707107" material="architecture_fn_cope" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_cope01" type="box" pos="-2.0771 -0.1722 0.0950" size="0.1408 0.0400 0.0170" quat="0.707107 0 0 0.707107" material="architecture_fn_cope" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_weirsill0" type="box" pos="-2.0771 0.0000 0.0860" size="0.1722 0.0400 0.0080" quat="0.707107 0 0 0.707107" material="architecture_fn_cope" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_drum1" type="box" pos="-2.3086 0.4914 0.0400" size="0.3170 0.0340 0.0400" quat="0.382683 0 0 0.923880" material="architecture_fn_drum" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_lin1" type="box" pos="-2.3539 0.4461 0.0470" size="0.2630 0.0220 0.0470" quat="0.382683 0 0 0.923880" material="architecture_fn_lining" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_cope1" type="box" pos="-2.2888 0.5112 0.0957" size="0.3390 0.0400 0.0170" quat="0.384459 0 0 0.923142" material="architecture_fn_cope" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_drum2" type="box" pos="-2.8000 0.6949 0.0400" size="0.3170 0.0340 0.0400" quat="0.000000 0 0 1.000000" material="architecture_fn_drum_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_lin2" type="box" pos="-2.8000 0.6309 0.0470" size="0.2630 0.0220 0.0470" quat="0.000000 0 0 1.000000" material="architecture_fn_lining" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_cope2" type="box" pos="-2.8000 0.7229 0.0946" size="0.3390 0.0400 0.0170" quat="-0.001090 0 0 0.999999" material="architecture_fn_cope" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_drum3" type="box" pos="-3.2914 0.4914 0.0400" size="0.3170 0.0340 0.0400" quat="-0.382683 0 0 0.923880" material="architecture_fn_drum_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_lin3" type="box" pos="-3.2461 0.4461 0.0470" size="0.2630 0.0220 0.0470" quat="-0.382683 0 0 0.923880" material="architecture_fn_lining" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_cope3" type="box" pos="-3.3112 0.5112 0.0938" size="0.3390 0.0400 0.0170" quat="-0.386386 0 0 0.922337" material="architecture_fn_cope_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_drum4" type="box" pos="-3.4949 0.0000 0.0400" size="0.3170 0.0340 0.0400" quat="-0.707107 0 0 0.707107" material="architecture_fn_drum_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_lin4" type="box" pos="-3.4309 0.0000 0.0470" size="0.2630 0.0220 0.0470" quat="-0.707107 0 0 0.707107" material="architecture_fn_lining" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_cope4" type="box" pos="-3.5229 0.0000 0.0942" size="0.3390 0.0400 0.0170" quat="-0.706117 0 0 0.708096" material="architecture_fn_cope_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_drum5" type="box" pos="-3.2914 -0.4914 0.0400" size="0.3170 0.0340 0.0400" quat="-0.923880 0 0 0.382683" material="architecture_fn_drum" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_lin5" type="box" pos="-3.2461 -0.4461 0.0470" size="0.2630 0.0220 0.0470" quat="-0.923880 0 0 0.382683" material="architecture_fn_lining" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_rubble5" type="box" pos="-3.3819 -0.5819 0.0190" size="0.0780 0.0460 0.0190" quat="-0.970693 0 0 0.240323" material="architecture_stone_mid" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_drum6" type="box" pos="-2.8000 -0.6949 0.0400" size="0.3170 0.0340 0.0400" quat="-1.000000 0 0 0.000000" material="architecture_fn_drum" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_lin6" type="box" pos="-2.8000 -0.6309 0.0470" size="0.2630 0.0220 0.0470" quat="-1.000000 0 0 0.000000" material="architecture_fn_lining" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_cope6" type="box" pos="-2.8000 -0.7229 0.0957" size="0.3390 0.0400 0.0170" quat="-0.999994 0 0 0.003405" material="architecture_fn_cope" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_drum7" type="box" pos="-2.3086 -0.4914 0.0400" size="0.3170 0.0340 0.0400" quat="-0.923880 0 0 -0.382683" material="architecture_fn_drum" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_lin7" type="box" pos="-2.3539 -0.4461 0.0470" size="0.2630 0.0220 0.0470" quat="-0.923880 0 0 -0.382683" material="architecture_fn_lining" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_cope7" type="box" pos="-2.2888 -0.5112 0.0967" size="0.3390 0.0400 0.0170" quat="-0.922351 0 0 -0.386354" material="architecture_fn_cope" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_pbase" type="box" pos="-2.8000 0.0000 0.0260" size="0.1500 0.1500 0.0260" quat="0.999688 0 0 0.024997" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_psoc" type="box" pos="-2.8000 0.0000 0.0660" size="0.1180 0.1180 0.0140" quat="0.999688 0 0 0.024997" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_pshaft" type="box" pos="-2.8000 0.0000 0.1760" size="0.0820 0.0820 0.0960" quat="0.999688 0 0 0.024997" material="architecture_fn_drum" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_pcorb" type="box" pos="-2.8000 0.0000 0.2880" size="0.1120 0.1120 0.0160" quat="0.999688 0 0 0.024997" material="architecture_stone" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_pbrk" type="box" pos="-2.7880 -0.0080 0.3300" size="0.0580 0.0620 0.0260" quat="0.990216 0 0 0.139543" material="architecture_fn_drum" contype="0" conaffinity="0"/>
+<geom name="architecture_fn_spout" type="box" pos="-2.7080 0.0300 0.2620" size="0.0500 0.0160 0.0160" quat="0.995953 0 0 0.089879" material="architecture_iron" contype="0" conaffinity="0"/>
+<!-- Collision proxies: invisible (group=3, the robot's own convention
+     for collision geoms).  These are the ONLY collidable geoms this
+     agent contributes: 12 columns + 2 walls + 2 gate masses = 16. -->
+<geom name="architecture_col0m_C" type="box" pos="0.9083 -1.2950 0.3700" size="0.1680 0.1680 0.3700" quat="1.000000 0 0 0.000695" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col0p_C" type="box" pos="0.8811 1.3034 0.3700" size="0.1730 0.1730 0.3700" quat="0.999973 0 0 -0.007387" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col1m_C" type="box" pos="2.0648 -1.2973 0.3700" size="0.1638 0.1638 0.3700" quat="0.999976 0 0 -0.006889" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col1p_C" type="box" pos="2.0757 1.3120 0.3700" size="0.1697 0.1697 0.3700" quat="0.999969 0 0 0.007883" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col2m_C" type="box" pos="3.2256 -1.2935 0.3700" size="0.1714 0.1714 0.3700" quat="0.999962 0 0 0.008732" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col2p_C" type="box" pos="3.2327 1.2992 0.3700" size="0.1655 0.1655 0.3700" quat="0.999974 0 0 0.007196" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col3m_C" type="box" pos="4.3979 -1.2927 0.3700" size="0.1672 0.1672 0.3700" quat="0.999986 0 0 0.005346" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col3p_C" type="box" pos="4.3810 1.2989 0.3700" size="0.1705 0.1705 0.3700" quat="0.999976 0 0 -0.006889" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col4m_C" type="box" pos="5.5308 -1.3016 0.3700" size="0.1688 0.1688 0.3700" quat="0.999901 0 0 0.014036" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col4p_C" type="box" pos="5.5498 1.3067 0.3700" size="0.1663 0.1663 0.3700" quat="0.999951 0 0 -0.009911" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col5m_C" type="box" pos="6.6938 -1.3001 0.3700" size="0.1646 0.1646 0.3700" quat="0.999982 0 0 -0.006065" material="architecture_ashlar" group="3"/>
+<geom name="architecture_col5p_C" type="box" pos="6.7117 1.3108 0.3700" size="0.1714 0.1714 0.3700" quat="0.999907 0 0 -0.013609" material="architecture_ashlar" group="3"/>
+<geom name="architecture_sw_C" type="box" pos="0.0000 -3.3325 0.2500" size="7.1200 0.1675 0.2500" material="architecture_ashlar" group="3"/>
+<geom name="architecture_nw_C" type="box" pos="0.0000 3.3325 0.2900" size="7.1200 0.1675 0.2900" material="architecture_ashlar" group="3"/>
+<geom name="architecture_gtN_C" type="box" pos="7.1525 1.9300 0.3100" size="0.1325 1.3800 0.3100" material="architecture_ashlar" group="3"/>
+<geom name="architecture_gtS_C" type="box" pos="7.1525 -1.9300 0.3600" size="0.1325 1.3800 0.3600" material="architecture_ashlar" group="3"/>
+<geom name="architecture_ru0_C" type="box" pos="-7.1500 -2.6200 0.1125" size="0.1550 0.4900 0.1125" material="architecture_ashlar" group="3"/>
+<geom name="architecture_ru1_C" type="box" pos="-7.1500 -1.2800 0.0575" size="0.1550 0.3300 0.0575" material="architecture_ashlar" group="3"/>
+<geom name="architecture_ru2_C" type="box" pos="-7.1500 0.1800 0.1725" size="0.1550 0.5550 0.1725" material="architecture_ashlar" group="3"/>
+<geom name="architecture_ru3_C" type="box" pos="-7.1500 1.6200 0.0800" size="0.1550 0.3900 0.0800" material="architecture_ashlar" group="3"/>
+<geom name="architecture_ru4_C" type="box" pos="-7.1500 2.7800 0.1425" size="0.1550 0.4600 0.1425" material="architecture_ashlar" group="3"/>
+<geom name="architecture_ru_step_C" type="box" pos="-6.9450 0.1500 0.0660" size="0.2050 1.2000 0.0660" material="architecture_ashlar" group="3"/>
+<geom name="architecture_ru_drum_C" type="box" pos="-6.3000 -1.9500 0.0980" size="0.1150 0.4200 0.0980" material="architecture_ashlar" group="3"/>
+<geom name="architecture_fn_C0" type="box" pos="-2.1051 0.0000 0.0560" size="0.3170 0.0340 0.0560" quat="0.707107 0 0 0.707107" material="architecture_ashlar" group="3"/>
+<geom name="architecture_fn_C1" type="box" pos="-2.3086 0.4914 0.0560" size="0.3170 0.0340 0.0560" quat="0.382683 0 0 0.923880" material="architecture_ashlar" group="3"/>
+<geom name="architecture_fn_C2" type="box" pos="-2.8000 0.6949 0.0560" size="0.3170 0.0340 0.0560" quat="0.000000 0 0 1.000000" material="architecture_ashlar" group="3"/>
+<geom name="architecture_fn_C3" type="box" pos="-3.2914 0.4914 0.0560" size="0.3170 0.0340 0.0560" quat="-0.382683 0 0 0.923880" material="architecture_ashlar" group="3"/>
+<geom name="architecture_fn_C4" type="box" pos="-3.4949 0.0000 0.0560" size="0.3170 0.0340 0.0560" quat="-0.707107 0 0 0.707107" material="architecture_ashlar" group="3"/>
+<geom name="architecture_fn_C5" type="box" pos="-3.2914 -0.4914 0.0560" size="0.3170 0.0340 0.0560" quat="-0.923880 0 0 0.382683" material="architecture_ashlar" group="3"/>
+<geom name="architecture_fn_C6" type="box" pos="-2.8000 -0.6949 0.0560" size="0.3170 0.0340 0.0560" quat="-1.000000 0 0 0.000000" material="architecture_ashlar" group="3"/>
+<geom name="architecture_fn_C7" type="box" pos="-2.3086 -0.4914 0.0560" size="0.3170 0.0340 0.0560" quat="-0.923880 0 0 -0.382683" material="architecture_ashlar" group="3"/>

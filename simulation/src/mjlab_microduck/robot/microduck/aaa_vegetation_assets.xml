@@ -1,0 +1,30 @@
+<!-- ===== vegetation: textures + materials =====
+     EVERY material here is texuniform="false" texrepeat="1 1", i.e. exactly one
+     copy of the texture stretched onto each face. This renderer has no working
+     mipmapping, so tiling a 512px texture down into a 100px slab turns it into
+     moire: at texrepeat 14 this foliage rendered as camouflage blotching that had
+     nothing to do with the painted leaves. One copy per face keeps every texel
+     within about 4x of a screen pixel, and the textures are authored with large
+     features to suit. -->
+<texture name="vegetation_tex_blade"  type="2d" file="vegetation_blade.png"/>
+<texture name="vegetation_tex_leaf"   type="2d" file="vegetation_leaf.png"/>
+<texture name="vegetation_tex_bark"   type="2d" file="vegetation_bark.png"/>
+<texture name="vegetation_tex_terra"  type="2d" file="vegetation_terra.png"/>
+<texture name="vegetation_tex_rock"   type="2d" file="vegetation_rock.png"/>
+<texture name="vegetation_tex_litter" type="2d" file="vegetation_litter.png"/>
+
+<!-- blade carries a baked base->tip ramp, so one copy per face puts the dark
+     root and the bleached tip in the right places whatever the blade's length -->
+<material name="vegetation_blade"  texture="vegetation_tex_blade"  texuniform="false" texrepeat="1 1"
+          specular="0.12" shininess="0.08"/>
+<material name="vegetation_leaf"   texture="vegetation_tex_leaf"   texuniform="false" texrepeat="1 1"
+          specular="0.12" shininess="0.08"/>
+<!-- 7 grooves wrap the trunk; 7 throw ridges climb the pot -->
+<material name="vegetation_bark"   texture="vegetation_tex_bark"   texuniform="false" texrepeat="1 1"
+          specular="0.10" shininess="0.06"/>
+<material name="vegetation_terra"  texture="vegetation_tex_terra"  texuniform="false" texrepeat="1 1"
+          specular="0.10" shininess="0.06"/>
+<material name="vegetation_rock"   texture="vegetation_tex_rock"   texuniform="false" texrepeat="1 1"
+          specular="0.10" shininess="0.07"/>
+<material name="vegetation_litter" texture="vegetation_tex_litter" texuniform="false" texrepeat="1 1"
+          specular="0.08" shininess="0.05"/>

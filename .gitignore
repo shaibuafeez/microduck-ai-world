@@ -1,0 +1,43 @@
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secret*
+
+# Python
+**/__pycache__/
+*.py[cod]
+**/.venv/
+**/.venv-*/
+**/.pytest_cache/
+**/.ruff_cache/
+**/*.egg-info/
+
+# Rust
+**/target/
+
+# Training and generated output
+simulation/wandb/
+simulation/logs/
+simulation/logdir/
+simulation/renders/
+simulation/artifacts/
+simulation/data/
+simulation/*.onnx
+simulation/**/*.pt
+simulation/**/*.npz
+simulation/brain.log
+simulation/say_to_duck.txt
+
+# Runtime release and scratch output
+runtime/dist/
+runtime/staged/
+runtime/verify/
+runtime/w1.json
+

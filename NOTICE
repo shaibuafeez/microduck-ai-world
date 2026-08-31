@@ -1,0 +1,19 @@
+Microduck AI World
+Copyright 2026 Cyber
+
+This product includes software derived from:
+
+  Microduck
+  Copyright Pollen Robotics and contributors
+  https://github.com/pollen-robotics/microduck
+
+  Microduck RL
+  Copyright Pollen Robotics and contributors
+  https://github.com/pollen-robotics/microduck_rl
+
+Both upstream projects are licensed under the Apache License, Version 2.0.
+
+Modifications in this distribution include an experimental 0G-backed AI brain,
+voice and text command routing, semantic visual search, custom MuJoCo scenes and
+assets, race support, and a robot-side sensing daemon. Modified source files are
+included in this repository alongside the upstream attribution above.

@@ -1,0 +1,44 @@
+<!-- ================= architecture agent: textures ================= -->
+<texture type="2d" name="architecture_t_ashlar" file="architecture_ashlar.png"/>
+<texture type="2d" name="architecture_t_plaster" file="architecture_plaster.png"/>
+<texture type="2d" name="architecture_t_stone" file="architecture_stone.png"/>
+<texture type="2d" name="architecture_t_stonec" file="architecture_stonec.png"/>
+<texture type="2d" name="architecture_t_rose" file="architecture_rose.png"/>
+<texture type="2d" name="architecture_t_petrol" file="architecture_petrol.png"/>
+<!-- ================= architecture agent: materials ================ -->
+<!-- families carry authored aerial perspective: near / _mid / _far -->
+<material name="architecture_ashlar" texture="architecture_t_ashlar" texuniform="false" texrepeat="1 1" specular="0.09" shininess="0.06"/>
+<material name="architecture_ashlar_md_mid" texture="architecture_t_ashlar" texuniform="false" texrepeat="2.4 1.5" rgba="0.92 0.93 0.97 1" specular="0.09" shininess="0.06"/>
+<material name="architecture_ashlar_md_far" texture="architecture_t_ashlar" texuniform="false" texrepeat="2.4 1.5" rgba="0.84 0.88 0.98 1" specular="0.09" shininess="0.06"/>
+<material name="architecture_ashlar_md2_far" texture="architecture_t_ashlar" texuniform="false" texrepeat="2.05 1.72" rgba="0.84 0.88 0.98 1" specular="0.09" shininess="0.06"/>
+<material name="architecture_ashlar_md3_far" texture="architecture_t_ashlar" texuniform="false" texrepeat="2.76 1.31" rgba="0.84 0.88 0.98 1" specular="0.09" shininess="0.06"/>
+<material name="architecture_plaster" texture="architecture_t_plaster" texuniform="false" texrepeat="3 1.4" specular="0.06" shininess="0.04"/>
+<material name="architecture_plaster_far" texture="architecture_t_plaster" texuniform="false" texrepeat="3 1.4" rgba="0.84 0.88 0.98 1" specular="0.06" shininess="0.04"/>
+<material name="architecture_plaster_col" texture="architecture_t_plaster" texuniform="false" texrepeat="1 1" specular="0.06" shininess="0.04"/>
+<material name="architecture_plaster_col_mid" texture="architecture_t_plaster" texuniform="false" texrepeat="1 1" rgba="0.92 0.93 0.97 1" specular="0.06" shininess="0.04"/>
+<material name="architecture_plaster_col_far" texture="architecture_t_plaster" texuniform="false" texrepeat="1 1" rgba="0.84 0.88 0.98 1" specular="0.06" shininess="0.04"/>
+<material name="architecture_stone" texture="architecture_t_stone" texuniform="false" texrepeat="1 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_stone_mid" texture="architecture_t_stone" texuniform="false" texrepeat="1 1" rgba="0.92 0.93 0.97 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_stone_far" texture="architecture_t_stone" texuniform="false" texrepeat="1 1" rgba="0.84 0.88 0.98 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_stone_lg" texture="architecture_t_stonec" texuniform="false" texrepeat="2.6 0.050" specular="0.1" shininess="0.06"/>
+<material name="architecture_stone_lg_mid" texture="architecture_t_stonec" texuniform="false" texrepeat="2.6 0.050" rgba="0.92 0.93 0.97 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_stone_lg_far" texture="architecture_t_stonec" texuniform="false" texrepeat="2.6 0.050" rgba="0.84 0.88 0.98 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_stone_xl" texture="architecture_t_stonec" texuniform="false" texrepeat="4.0 0.070" specular="0.1" shininess="0.06"/>
+<material name="architecture_stone_xl_mid" texture="architecture_t_stonec" texuniform="false" texrepeat="4.0 0.070" rgba="0.92 0.93 0.97 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_stone_xl_far" texture="architecture_t_stonec" texuniform="false" texrepeat="4.0 0.070" rgba="0.84 0.88 0.98 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_fn_cope" texture="architecture_t_stone" texuniform="false" texrepeat="6 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_fn_cope_mid" texture="architecture_t_stone" texuniform="false" texrepeat="6 1" rgba="0.92 0.93 0.97 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_fn_drum" texture="architecture_t_stonec" texuniform="false" texrepeat="6 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_fn_drum_mid" texture="architecture_t_stonec" texuniform="false" texrepeat="6 1" rgba="0.92 0.93 0.97 1" specular="0.1" shininess="0.06"/>
+<material name="architecture_fn_lining" texture="architecture_t_stonec" texuniform="false" texrepeat="5 1" rgba="0.70 0.70 0.74 1" specular="0.16" shininess="0.14"/>
+<material name="architecture_stone_rim_far" texture="architecture_t_stonec" texuniform="false" texrepeat="1.3 0.4" rgba="0.78 0.80 0.88 1" specular="0.08" shininess="0.05"/>
+<material name="architecture_rose" texture="architecture_t_rose" texuniform="false" texrepeat="1 1" specular="0.07" shininess="0.05"/>
+<material name="architecture_rose_b" texture="architecture_t_rose" texuniform="false" texrepeat="1.29 1.16" specular="0.07" shininess="0.05"/>
+<material name="architecture_rose_band" texture="architecture_t_rose" texuniform="false" texrepeat="15.8 0.085" specular="0.07" shininess="0.05"/>
+<material name="architecture_rose_dark" texture="architecture_t_rose" texuniform="false" texrepeat="6.5 1" rgba="0.86 0.80 0.80 1" specular="0.09" shininess="0.07"/>
+<material name="architecture_rose_plane" texture="architecture_t_rose" texuniform="false" texrepeat="5.8 1" specular="0.07" shininess="0.05"/>
+<material name="architecture_petrol" texture="architecture_t_petrol" texuniform="false" texrepeat="1 1" specular="0.14" shininess="0.1"/>
+<material name="architecture_petrol_band" texture="architecture_t_petrol" texuniform="false" texrepeat="15.8 0.085" specular="0.14" shininess="0.1"/>
+<material name="architecture_petrol_shade" texture="architecture_t_stone" texuniform="false" texrepeat="9 2" rgba="0.40 0.42 0.62 1" specular="0.1" shininess="0.08"/>
+<material name="architecture_petrol_dark" texture="architecture_t_petrol" texuniform="false" texrepeat="13 1" rgba="0.80 0.82 0.88 1" specular="0.16" shininess="0.12"/>
+<material name="architecture_iron" rgba="0.300 0.170 0.120 1" specular="0.30" shininess="0.35"/>

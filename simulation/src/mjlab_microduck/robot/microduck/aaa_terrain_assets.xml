@@ -1,0 +1,90 @@
+<!-- ============================ aaa_terrain_assets.xml ============================
+     TERRAIN agent.  Ground, water and every flat inlay in the court.
+     Textures are authored as DELIVERED reflectance: the classic renderer clamps
+     (rgba x lights) to 1 before modulating by the texel, and the 11 deg sun gives a
+     horizontal surface only (0.474, 0.400, 0.424) of full light == so the texel IS the
+     ceiling.  Relief, cast shadow and AO are baked, because <layer role="normal"> is
+     inert in this build (verified here: pixel maxdiff 0.0).
+     ============================================================================== -->
+<texture type="2d" name="terrain_tex_ground"  file="terrain_ground.png"/>
+<texture type="2d" name="terrain_tex_pool"    file="terrain_pool.png"/>
+<texture type="2d" name="terrain_tex_reflect" file="terrain_reflect.png"/>
+<texture type="2d" name="terrain_tex_rill"    file="terrain_rill.png"/>
+<texture type="2d" name="terrain_tex_band"    file="terrain_band.png"/>
+<texture type="2d" name="terrain_tex_apron"   file="terrain_apron.png"/>
+
+<!-- HERO. 3072px over a 1.68 m tile; 5 courses cut into 4-6 stones == 0.28-0.42 m flags,
+     ONE of which is longer than the whole duck.  That is the scale story: at 12 cm eye
+     height a single joint sweeps across the bottom of frame instead of a grid, which is
+     also what removes the checkerboard read the first cut had at 1.20 m.
+     texrepeat is per world unit (texuniform).  MEASURED, not assumed: under texuniform the
+     repeat period is 2/texrepeat METRES (u = texrepeat/2 * (local_x + size_x), anchored to
+     the geom's own -x/+y corner), so 1.190476 = one tile per 1.68 m. -->
+<material name="terrain_ground" texture="terrain_tex_ground" texuniform="true"
+          texrepeat="1.190476 1.190476" specular="0.10" shininess="0.08"/>
+
+<!-- Puddles.  Same stone, diffused the way 5 mm of water diffuses a joint, with the
+     reflected sky painted straight into the albedo.
+     NO `reflectance`, and that is a measured decision, not an oversight.  A/B at 1.3 / 6 /
+     20 / 50 mm above the plane, with 27 reflective geoms: mean pixel difference 0.007-0.05
+     on a 0-255 scale (bit-identical in three of five camera angles) for +4.5 ms per frame at
+     320x240.  The mirror is a decal lying ON an infinite plane, so the reflected half-space
+     is filled by the floor itself, and `reflectance` never mirrors the skybox.
+     The small `emission` is what lets a horizontal surface exceed its own light budget:
+     with a texture bound the texel is the ceiling and a floor-level texel maxes out at
+     luminance 112/255, but real standing water at golden hour is markedly brighter than the
+     stone around it because it is showing the sky.  0.09 is a sheen. -->
+<material name="terrain_wet" texture="terrain_tex_pool" texuniform="true"
+          texrepeat="1.190476 1.190476" rgba="0.900 0.920 0.975 1" emission="0.09"
+          specular="0.62" shininess="0.86"/>
+
+<!-- THE RILL WATER and the fountain basin: the painted inverted colonnade.  Strongly
+     anisotropic texrepeat -- u period 1.724 -> 1.16 m, the colonnade's real bay spacing, so
+     one painted column reflection lands per bay; v period 12.195 -> 0.164 m, the channel
+     width.  Each water geom spans exactly one bay centred on a real column. -->
+<material name="terrain_water" texture="terrain_tex_reflect" texuniform="true"
+          texrepeat="1.724138 12.195122" rgba="0.960 0.970 1.000 1" emission="0.11"
+          specular="0.80" shininess="0.92"/>
+
+<!-- The same water where it is NOT a channel (fountain basin): isotropic, so the painted
+     reflection reads as a broken sky sheen rather than a marching rhythm. -->
+<material name="terrain_basin" texture="terrain_tex_reflect" texuniform="true"
+          texrepeat="1.724138 1.724138" rgba="0.960 0.970 1.000 1" emission="0.11"
+          specular="0.80" shininess="0.92"/>
+
+<!-- The damp margin every real puddle has: darker, but dead matte and not a mirror. -->
+<material name="terrain_damp" texture="terrain_tex_ground" texuniform="true"
+          texrepeat="1.190476 1.190476" rgba="0.845 0.835 0.825 1"
+          specular="0.14" shininess="0.10"/>
+
+<!-- Traffic polish.  The critique asked for "one coherent low-frequency overlay across the
+     whole tile (traffic polish down the corridor centre, darker damp margins)".  It cannot
+     live in the tile: a feature at tile wavelength is exactly what makes the repeat legible
+     on an infinite plane.  It lives here instead, as a handful of large soft decals -- same
+     stone, walked a little paler and greyer -- which delivers the same read and cannot
+     tile.  Kept within 6% of the floor's own value so no edge shows. -->
+<material name="terrain_polish" texture="terrain_tex_ground" texuniform="true"
+          texrepeat="1.190476 1.190476" rgba="1.000 0.985 0.965 1"
+          specular="0.22" shininess="0.20"/>
+
+<!-- Rill channel: one 0.44 m cell (texrepeat 4.545 => 0.44 m period; v = 0 at the +Y edge,
+     so row 0 of the PNG is the north kerb) carries kerb / shadowed inner walls / silt bed.
+     Everything below the kerb top is vis=0: at 11 deg a 40 mm kerb throws 206 mm of shadow,
+     which is wider than the channel, so nothing in a rill this shallow sees the sun. -->
+<material name="terrain_rill" texture="terrain_tex_rill" texuniform="true"
+          texrepeat="4.545 4.545" specular="0.16" shininess="0.14"/>
+
+<!-- Bleached inlay band, 0.14 m cell (texrepeat 14.286).  Spawn-apron frame and gate threshold. -->
+<material name="terrain_band" texture="terrain_tex_band" texuniform="true"
+          texrepeat="14.286 14.286" specular="0.12" shininess="0.10"/>
+
+<!-- OUTSIDE THE WALLS.  Nobody owned this surface and the court's flagstone tiled the whole
+     infinite plane to the horizon, checkerboarding at the tile pitch across the lower two
+     thirds of the establishing shot.  A paved court in an arid landscape needs the paving to
+     STOP: this is wind-drifted sand and builders' spoil, laid from the wall foot outward with
+     a broken edge.  2.8 m period so it never reads as a second grid. -->
+<material name="terrain_apron" texture="terrain_tex_apron" texuniform="true"
+          texrepeat="0.714286 0.714286" specular="0.06" shininess="0.04"/>
+<material name="terrain_apron_far" texture="terrain_tex_apron" texuniform="true"
+          texrepeat="0.714286 0.714286" rgba="0.930 0.930 0.965 1"
+          specular="0.05" shininess="0.03"/>

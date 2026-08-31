@@ -1,0 +1,159 @@
+<mujoco model="scene_race">
+    <include file="robot_allcollisions_rollers_cam.xml" />
+
+    <visual>
+        <headlight diffuse="0.25 0.25 0.25" ambient="0.22 0.22 0.24" specular="0.05 0.05 0.05" />
+        <rgba haze="0.78 0.83 0.89 1" />
+        <global azimuth="140" elevation="-22" offwidth="1920" offheight="1080" />
+        <quality shadowsize="8192" offsamples="8" />
+        <map fogstart="14" fogend="55" shadowclip="3" shadowscale="1.2" />
+    </visual>
+
+    <asset>
+        <texture type="skybox" name="sky"
+            fileright="sky_right.png" fileleft="sky_left.png"
+            filefront="sky_front.png" fileback="sky_back.png"
+            fileup="sky_up.png"       filedown="sky_down.png" />
+        <texture type="2d" name="groundplane" file="ground_concrete.png" />
+        <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="0.6 0.6"
+            reflectance="0.02" specular="0.12" shininess="0.08" />
+        <material name="gate"      rgba="0.95 0.95 0.96 1" specular="0.4" shininess="0.3"/>
+        <material name="gate_start" rgba="0.95 0.82 0.25 1" specular="0.4" shininess="0.3"/>
+        <material name="startline" rgba="0.96 0.96 0.97 1"/>
+        <material name="cone"      rgba="0.92 0.36 0.12 1" specular="0.2" shininess="0.1"/>
+    </asset>
+
+    <worldbody>
+        <light name="key"  pos="1.8 -2.2 3.0" dir="-0.45 0.55 -0.75" directional="true"
+               diffuse="0.85 0.83 0.78" specular="0.25 0.25 0.25" castshadow="true" />
+        <light name="fill" pos="-2.5 2.0 2.0" dir="0.6 -0.5 -0.62" directional="true"
+               diffuse="0.22 0.24 0.28" specular="0 0 0" castshadow="false" />
+        <geom name="floor" size="0 0 0.05" pos="0 0 0" type="plane" material="groundplane" />
+
+        <!-- RACE:BEGIN -->
+        <geom name="gate0_l" type="capsule" size="0.014" material="gate_start"
+              fromto="3.020 0.000 0 3.020 0.000 0.30"/>
+        <geom name="gate0_r" type="capsule" size="0.014" material="gate_start"
+              fromto="2.180 0.000 0 2.180 0.000 0.30"/>
+        <geom name="gate0_bar" type="capsule" size="0.012" material="gate_start"
+              fromto="3.020 0.000 0.30 2.180 0.000 0.30"/>
+        <geom name="start_line" type="box" size="0.02 0.42 0.001"
+              pos="2.600 0.000 0.001" material="startline"/>
+        <geom name="gate1_l" type="capsule" size="0.014" material="gate"
+              fromto="2.068 1.554 0 2.068 1.554 0.22"/>
+        <geom name="gate1_r" type="capsule" size="0.014" material="gate"
+              fromto="1.609 0.851 0 1.609 0.851 0.22"/>
+        <geom name="gate2_l" type="capsule" size="0.014" material="gate"
+              fromto="0.000 2.120 0 0.000 2.120 0.22"/>
+        <geom name="gate2_r" type="capsule" size="0.014" material="gate"
+              fromto="0.000 1.280 0 0.000 1.280 0.22"/>
+        <geom name="gate3_l" type="capsule" size="0.014" material="gate"
+              fromto="-2.068 1.554 0 -2.068 1.554 0.22"/>
+        <geom name="gate3_r" type="capsule" size="0.014" material="gate"
+              fromto="-1.609 0.851 0 -1.609 0.851 0.22"/>
+        <geom name="gate4_l" type="capsule" size="0.014" material="gate"
+              fromto="-3.020 0.000 0 -3.020 0.000 0.22"/>
+        <geom name="gate4_r" type="capsule" size="0.014" material="gate"
+              fromto="-2.180 0.000 0 -2.180 0.000 0.22"/>
+        <geom name="gate5_l" type="capsule" size="0.014" material="gate"
+              fromto="-2.068 -1.554 0 -2.068 -1.554 0.22"/>
+        <geom name="gate5_r" type="capsule" size="0.014" material="gate"
+              fromto="-1.609 -0.851 0 -1.609 -0.851 0.22"/>
+        <geom name="gate6_l" type="capsule" size="0.014" material="gate"
+              fromto="-0.000 -2.120 0 -0.000 -2.120 0.22"/>
+        <geom name="gate6_r" type="capsule" size="0.014" material="gate"
+              fromto="-0.000 -1.280 0 -0.000 -1.280 0.22"/>
+        <geom name="gate7_l" type="capsule" size="0.014" material="gate"
+              fromto="2.068 -1.554 0 2.068 -1.554 0.22"/>
+        <geom name="gate7_r" type="capsule" size="0.014" material="gate"
+              fromto="1.609 -0.851 0 1.609 -0.851 0.22"/>
+        <geom name="cone0" type="box" size="0.035 0.035 0.055" pos="3.166 0.338 0.055" material="cone"/>
+        <geom name="cone1" type="box" size="0.035 0.035 0.055" pos="1.990 0.103 0.055" material="cone"/>
+        <geom name="cone2" type="box" size="0.035 0.035 0.055" pos="2.910 0.970 0.055" material="cone"/>
+        <geom name="cone3" type="box" size="0.035 0.035 0.055" pos="1.896 0.329 0.055" material="cone"/>
+        <geom name="cone4" type="box" size="0.035 0.035 0.055" pos="2.454 1.490 0.055" material="cone"/>
+        <geom name="cone5" type="box" size="0.035 0.035 0.055" pos="1.675 0.577 0.055" material="cone"/>
+        <geom name="cone6" type="box" size="0.035 0.035 0.055" pos="1.854 1.884 0.055" material="cone"/>
+        <geom name="cone7" type="box" size="0.035 0.035 0.055" pos="1.315 0.812 0.055" material="cone"/>
+        <geom name="cone8" type="box" size="0.035 0.035 0.055" pos="1.154 2.149 0.055" material="cone"/>
+        <geom name="cone9" type="box" size="0.035 0.035 0.055" pos="0.840 0.991 0.055" material="cone"/>
+        <geom name="cone10" type="box" size="0.035 0.035 0.055" pos="0.394 2.283 0.055" material="cone"/>
+        <geom name="cone11" type="box" size="0.035 0.035 0.055" pos="0.290 1.087 0.055" material="cone"/>
+        <geom name="cone12" type="box" size="0.035 0.035 0.055" pos="-0.388 2.283 0.055" material="cone"/>
+        <geom name="cone13" type="box" size="0.035 0.035 0.055" pos="-0.286 1.088 0.055" material="cone"/>
+        <geom name="cone14" type="box" size="0.035 0.035 0.055" pos="-1.149 2.150 0.055" material="cone"/>
+        <geom name="cone15" type="box" size="0.035 0.035 0.055" pos="-0.836 0.992 0.055" material="cone"/>
+        <geom name="cone16" type="box" size="0.035 0.035 0.055" pos="-1.850 1.886 0.055" material="cone"/>
+        <geom name="cone17" type="box" size="0.035 0.035 0.055" pos="-1.312 0.813 0.055" material="cone"/>
+        <geom name="cone18" type="box" size="0.035 0.035 0.055" pos="-2.450 1.493 0.055" material="cone"/>
+        <geom name="cone19" type="box" size="0.035 0.035 0.055" pos="-1.673 0.579 0.055" material="cone"/>
+        <geom name="cone20" type="box" size="0.035 0.035 0.055" pos="-2.908 0.974 0.055" material="cone"/>
+        <geom name="cone21" type="box" size="0.035 0.035 0.055" pos="-1.895 0.330 0.055" material="cone"/>
+        <geom name="cone22" type="box" size="0.035 0.035 0.055" pos="-3.165 0.343 0.055" material="cone"/>
+        <geom name="cone23" type="box" size="0.035 0.035 0.055" pos="-1.989 0.104 0.055" material="cone"/>
+        <geom name="cone24" type="box" size="0.035 0.035 0.055" pos="-3.166 -0.338 0.055" material="cone"/>
+        <geom name="cone25" type="box" size="0.035 0.035 0.055" pos="-1.990 -0.103 0.055" material="cone"/>
+        <geom name="cone26" type="box" size="0.035 0.035 0.055" pos="-2.910 -0.970 0.055" material="cone"/>
+        <geom name="cone27" type="box" size="0.035 0.035 0.055" pos="-1.896 -0.329 0.055" material="cone"/>
+        <geom name="cone28" type="box" size="0.035 0.035 0.055" pos="-2.454 -1.490 0.055" material="cone"/>
+        <geom name="cone29" type="box" size="0.035 0.035 0.055" pos="-1.675 -0.577 0.055" material="cone"/>
+        <geom name="cone30" type="box" size="0.035 0.035 0.055" pos="-1.854 -1.884 0.055" material="cone"/>
+        <geom name="cone31" type="box" size="0.035 0.035 0.055" pos="-1.315 -0.812 0.055" material="cone"/>
+        <geom name="cone32" type="box" size="0.035 0.035 0.055" pos="-1.154 -2.149 0.055" material="cone"/>
+        <geom name="cone33" type="box" size="0.035 0.035 0.055" pos="-0.840 -0.991 0.055" material="cone"/>
+        <geom name="cone34" type="box" size="0.035 0.035 0.055" pos="-0.394 -2.283 0.055" material="cone"/>
+        <geom name="cone35" type="box" size="0.035 0.035 0.055" pos="-0.290 -1.087 0.055" material="cone"/>
+        <geom name="cone36" type="box" size="0.035 0.035 0.055" pos="0.388 -2.283 0.055" material="cone"/>
+        <geom name="cone37" type="box" size="0.035 0.035 0.055" pos="0.286 -1.088 0.055" material="cone"/>
+        <geom name="cone38" type="box" size="0.035 0.035 0.055" pos="1.149 -2.150 0.055" material="cone"/>
+        <geom name="cone39" type="box" size="0.035 0.035 0.055" pos="0.836 -0.992 0.055" material="cone"/>
+        <geom name="cone40" type="box" size="0.035 0.035 0.055" pos="1.850 -1.886 0.055" material="cone"/>
+        <geom name="cone41" type="box" size="0.035 0.035 0.055" pos="1.312 -0.813 0.055" material="cone"/>
+        <geom name="cone42" type="box" size="0.035 0.035 0.055" pos="2.450 -1.493 0.055" material="cone"/>
+        <geom name="cone43" type="box" size="0.035 0.035 0.055" pos="1.673 -0.579 0.055" material="cone"/>
+        <geom name="cone44" type="box" size="0.035 0.035 0.055" pos="2.908 -0.974 0.055" material="cone"/>
+        <geom name="cone45" type="box" size="0.035 0.035 0.055" pos="1.895 -0.330 0.055" material="cone"/>
+        <geom name="cone46" type="box" size="0.035 0.035 0.055" pos="3.165 -0.343 0.055" material="cone"/>
+        <geom name="cone47" type="box" size="0.035 0.035 0.055" pos="1.989 -0.104 0.055" material="cone"/>
+        <!-- RACE:END -->
+    </worldbody>
+    <keyframe>
+        <key name="INIT" qpos="
+        2.6 -0.35 0.12 0.7071 0 0 0.7071 
+        0 0 0 0 0 0 0
+        0 0 0 0 
+        0 0 0 0 0 0 0" ctrl="0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        <!-- <key name="STAND" qpos="2.6 -0.35 0.12 0.7071 0 0 0.7071 0 -0.0873 -0.5236 0 0.5236 0.3491 -0.3491 0 0 0 0.0873 0.5236 0 -0.5236" ctrl="0 -0.0873 -0.5236 0 0.5236 0.3491 -0.3491 0 0 0 0.0873 0.5236 0 -0.5236"/> -->
+        <!-- STAND2: trunk shifted ~5mm forward (CoM over ankle axis). Leg pitch
+             leaned forward vs old STAND: hip_pitch 30->26.24deg, ankle 30->25.95deg,
+             knee 0->0.28deg. -->
+        <key name="STAND" qpos=" 
+        2.6 -0.35 0.12 0.7071 0 0 0.7071 
+
+        0 -0.08726646259971647 -0.457924 -0.004940 0.452984  0 0
+        0.3490658503988659 0.3490658503988659 0 0 
+        0 0.08726646259971647 0.457924 0.004940 -0.452984 0 0"
+         ctrl=" 
+        0 -0.08726646259971647 -0.457924 -0.004940 0.452984 
+        0.3490658503988659 0.3490658503988659 0 0 
+        0 0.08726646259971647 0.457924 0.004940 -0.452984" 
+        /> 
+        <key name="SIT" qpos=" 
+        2.6 -0.35 0.07 0.7071 0 0 0.7071 
+        0 0 -0.5236 1.0472 0 0
+        0 0.5 1.6 0 
+        0 0 0 0.5236 -1.0472 0 0 0" ctrl=" 
+        0 0 -0.5236 1.0472 0 
+        0.5 1.6 0 0 0 
+        0 0.5236 -1.0472 0"/> 
+        <key name="FOLD" qpos=" 
+        2.6 -0.35 0.07 0.7071 0 0 0.7071 
+        0 0 1.57 1.57 0 0 0
+        1 1 0 0 0 
+        0 -1.57 -1.57 0 0 0" ctrl=" 
+        0 0 1.57 1.57 0 
+        1 1 0 0 
+        0 0 -1.57 -1.57 0"/> 
+    </keyframe>
+
+</mujoco>

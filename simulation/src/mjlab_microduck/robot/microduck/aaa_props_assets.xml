@@ -1,0 +1,46 @@
+<!-- ============================= aaa_props_assets.xml =============================
+     PROPS agent.  Materials only == this agent authors NO textures.
+     materials.py built a 20-map library (12 MB of PNG) sized for large surfaces and
+     the shipped scene referenced NONE of it: every downstream agent authored its
+     own maps instead, so the whole library was dead weight decoded to the GPU for
+     zero pixels.  This agent is the consumer it was built for.  All that changes
+     here is texrepeat: the library's periods were authored for walls, and a 1.40 m
+     wood period on a 0.12 m crate shows 9% of one tile, i.e. a flat patch.
+     Under texuniform the period is 2/texrepeat METRES (probe-verified), so e.g.
+     texrepeat 22 == a 0.09 m board.
+     ============================================================================== -->
+<material name="props_wood" texture="materials_tex_wood" texuniform="true" texrepeat="22 22" specular="0.08" shininess="0.06"/>
+<material name="props_wood_mid" texture="materials_tex_wood" texuniform="true" texrepeat="22 22" rgba="0.93 0.94 0.97 1" specular="0.08" shininess="0.06"/>
+<material name="props_wood_far" texture="materials_tex_wood" texuniform="true" texrepeat="22 22" rgba="0.86 0.89 0.97 1" specular="0.08" shininess="0.06"/>
+<material name="props_terra" texture="materials_tex_terra" texuniform="true" texrepeat="40 40" specular="0.1" shininess="0.06"/>
+<material name="props_terra_mid" texture="materials_tex_terra" texuniform="true" texrepeat="40 40" rgba="0.93 0.94 0.97 1" specular="0.1" shininess="0.06"/>
+<material name="props_terra_far" texture="materials_tex_terra" texuniform="true" texrepeat="40 40" rgba="0.86 0.89 0.97 1" specular="0.1" shininess="0.06"/>
+<material name="props_canvas" texture="materials_tex_canvas" texuniform="true" texrepeat="33 33" specular="0.05" shininess="0.04"/>
+<material name="props_canvas_mid" texture="materials_tex_canvas" texuniform="true" texrepeat="33 33" rgba="0.93 0.94 0.97 1" specular="0.05" shininess="0.04"/>
+<material name="props_canvas_far" texture="materials_tex_canvas" texuniform="true" texrepeat="33 33" rgba="0.86 0.89 0.97 1" specular="0.05" shininess="0.04"/>
+<material name="props_iron" texture="materials_tex_iron" texuniform="true" texrepeat="29 29" specular="0.3" shininess="0.35"/>
+<material name="props_iron_mid" texture="materials_tex_iron" texuniform="true" texrepeat="29 29" rgba="0.93 0.94 0.97 1" specular="0.3" shininess="0.35"/>
+<material name="props_iron_far" texture="materials_tex_iron" texuniform="true" texrepeat="29 29" rgba="0.86 0.89 0.97 1" specular="0.3" shininess="0.35"/>
+<material name="props_stone" texture="materials_tex_stone" texuniform="true" texrepeat="26 26" specular="0.1" shininess="0.06"/>
+<material name="props_stone_mid" texture="materials_tex_stone" texuniform="true" texrepeat="26 26" rgba="0.93 0.94 0.97 1" specular="0.1" shininess="0.06"/>
+<material name="props_stone_far" texture="materials_tex_stone" texuniform="true" texrepeat="26 26" rgba="0.86 0.89 0.97 1" specular="0.1" shininess="0.06"/>
+<material name="props_sand" texture="materials_tex_sand" texuniform="true" texrepeat="24 24" specular="0.06" shininess="0.05"/>
+<material name="props_sand_mid" texture="materials_tex_sand" texuniform="true" texrepeat="24 24" rgba="0.93 0.94 0.97 1" specular="0.06" shininess="0.05"/>
+<material name="props_sand_far" texture="materials_tex_sand" texuniform="true" texrepeat="24 24" rgba="0.86 0.89 0.97 1" specular="0.06" shininess="0.05"/>
+
+<!-- THE one saturated object.  Glaze crazing at a 0.05 m period.
+     NO `reflectance`, and this one is measured, not inherited: the bible's
+     material table gives aaa_lapis reflectance 0.05, and shipping it cost
+     TEN MILLISECONDS a frame at 320x240 -- 37.5 ms with the nine lapis geoms
+     visible, 27.3 ms with them hidden, on a scene where hiding all 394 props
+     only saved 13.2.  The classic renderer runs an extra full scene pass per
+     reflective geom, so the price scales with the WHOLE scene's geom count,
+     not with the mirror's size: 0.05 reflectance on a 0.11 m jar was costing
+     more than the entire props tier.  It is also invisible at that level.
+     Specular and shininess carry the glaze instead, for free. -->
+<material name="props_lapis" texture="materials_tex_lapis" texuniform="true" texrepeat="40 40" specular="0.52" shininess="0.62"/>
+
+<!-- brazier embers.  The only emissive this agent spends: a dull red coal
+     bed, well under the amber of atmosphere's lamps so it cannot compete
+     with the curb strips for the shadow aisle's one legible incident. -->
+<material name="props_ember" rgba="1.00 0.42 0.15 1" emission="0.62"/>
